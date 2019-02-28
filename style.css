@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: black;
+}
+
+.square {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.ring {
+  background: orange;
+  width: 500px;
+  height: 500px;
+  border-radius: 100%;
+  margin-left: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
